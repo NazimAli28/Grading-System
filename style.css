@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+#grade {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Styles for different grades */
+
+#grade.A {
+    color: green;
+}
+
+#grade.B {
+    color: blue;
+}
+
+#grade.C {
+    color: orange;
+}
+
+#grade.D {
+    color: red;
+}
