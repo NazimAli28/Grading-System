@@ -10,7 +10,7 @@ function updateScore() {
 
 function submitScore() {
     // Determine the grade based on the score
-    if (score >= 80) {
+    if (score >= 80 && score <= 100) {
         document.getElementById("grade").innerHTML = "Grade: A";
         document.getElementById("grade").className = "A";
     } else if (score >= 70 && score < 80) {
